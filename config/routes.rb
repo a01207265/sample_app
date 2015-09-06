@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'static_p_ages/home'
+
+  get 'static_p_ages/help'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
